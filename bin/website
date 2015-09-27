@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'launchy'
+repo = `git config remote.origin.url`[/github\.com[:\/](.*?)(\.git)?$/, 1]
+if repo && !repo.empty?
+  Launchy.open "https://github.com/#{repo}"
+else
+  $stderr.puts "No github origin repo found"
+end
