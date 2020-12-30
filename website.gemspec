@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "Open the github repo for the current project in your default browser."
   gem.description   = "Open the github repo for the current project in your default browser. Usage: In a folder with a git repo, run: $ website"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = ["mail@janlelis.de"]
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/website"
   gem.license       = "MIT"
 
@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = "~> 2.0"
-  gem.add_dependency "launchy", "~> 2.4"
+  gem.required_ruby_version = ">= 2.0"
+  gem.add_dependency "launchy", "~> 2.5"
 end

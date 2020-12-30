@@ -14,4 +14,4 @@ In a folder with a git repo, run:
 
 ## MIT License
 
-Copyright (C) 2015 Jan Lelis <http://janlelis.com>. Released under the MIT license.
+Copyright (C) 2015 Jan Lelis <https://janlelis.com>. Released under the MIT license.
